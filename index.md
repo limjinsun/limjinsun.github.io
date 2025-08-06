@@ -21,9 +21,8 @@ Vue
 MySQL / PostgreSQL
 Redis
 Kafka
-AWS (SQS / EC2 / Routes 53)
+AWS (SQS / EC2 / Lambda / RDS / Routes 53)
 Docker
 Heroku
 
 <br />
-<hr />
