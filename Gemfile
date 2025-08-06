@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 #gem "minima", "~> 2.5"
 
-gem "jekyll-theme-console"
+gem "jekyll-theme-console", path: "./lib/jekyll-theme-console"
 
 
 group :jekyll_plugins do
