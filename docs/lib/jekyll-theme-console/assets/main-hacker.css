@@ -1,8 +1,8 @@
 /**
  * Hacker theme variables
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700");
-@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Overpass+Mono:wght@300..700&display=swap");
 :root {
   --base-color: #00ff00;
   --border: dashed 1px rgba(0, 255, 0, 0.9);
@@ -34,7 +34,7 @@
 
 /**
  * Style variables
- Source Code Pro / Cascadia Code /  Ubuntu Sans Mono
+ Source Code Pro / Cascadia Code / Overpass Mono / Atkinson Hyperlegible Mono
  */
 /**
  * Global
@@ -43,7 +43,7 @@ body {
   background-color: var(--background-color);
   margin: 0 auto;
   padding: 0;
-  font-family: "Cascadia Code", monospace;
+  font-family: "Overpass Mono", monospace;
   font-size: 12.5px;
   color: var(--text-color);
   text-align: left;
@@ -198,7 +198,7 @@ input[type=text], select, textarea {
   color: var(--text-color);
   caret-color: var(--text-color);
   font-size: 12.5px;
-  font-family: "Cascadia Code", monospace;
+  font-family: "Overpass Mono", monospace;
   line-height: 1.5;
 }
 
@@ -221,7 +221,7 @@ input, select, textarea, textarea::-webkit-input-placeholder {
 
 input[type=submit] {
   font-size: 12.5px;
-  font-family: "Cascadia Code", monospace;
+  font-family: "Overpass Mono", monospace;
   line-height: 1.5;
   cursor: pointer;
   color: var(--link-color);
@@ -262,7 +262,7 @@ pre {
   font-size: 12.5px;
   color: var(--text-color);
   line-height: 1.7 !important;
-  font-family: "Cascadia Code", monospace !important;
+  font-family: "Overpass Mono", monospace !important;
 }
 
 .highlight .hll {
