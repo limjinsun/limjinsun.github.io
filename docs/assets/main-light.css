@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Overpass+Mono:wght@300..700&display=swap");
 /**
  * Light theme variables
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Overpass+Mono:wght@300..700&display=swap");
 :root {
   --base-color: #000;
   --border: dashed 1px rgba(0, 0, 0, 1);
@@ -50,7 +50,23 @@ body {
   line-height: 1.5 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  font-size: 17.5px;
+  margin: 0px;
+  margin-top: 22px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+h3, h4 {
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 22px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+h5, h6 {
   font-size: 12.5px;
   margin: 0px;
   margin-top: 22px;
@@ -451,5 +467,12 @@ pre {
 .highlight .il {
   color: var(--code-color-14);
 } /* Literal.Number.Integer.Long */
+hr {
+  border: none;
+  border-top: 1px dashed #333333; /* Dashed line */
+  background: rgb(14, 14, 14);
+  width: 100%;
+  margin: 10px auto;
+}
 
 /*# sourceMappingURL=main-light.css.map */

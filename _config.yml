@@ -12,8 +12,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
   - index.md
-  - peter.md
-  - about.md
+  - experience.md
+  - project.md
   # - contact.md
 
 style: dark

@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Overpass+Mono:wght@300..700&display=swap");
 /**
  * Light theme variables
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Overpass+Mono:wght@300..700&display=swap");
 :root {
   --base-color: #000;
   --border: dashed 1px rgba(0, 0, 0, 1);
@@ -50,7 +50,23 @@ body {
   line-height: 1.5 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  font-size: 17.5px;
+  margin: 0px;
+  margin-top: 22px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+h3, h4 {
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 22px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+h5, h6 {
   font-size: 12.5px;
   margin: 0px;
   margin-top: 22px;
@@ -451,38 +467,44 @@ pre {
 .highlight .il {
   color: var(--code-color-14);
 } /* Literal.Number.Integer.Long */
-@media (prefers-color-scheme: dark) {
-  /**
-   * Dark theme variables
-   */
-  :root {
-    --base-color: #DBDBDB;
-    --border: dashed 1px rgba(219, 219, 219, 0.9);
-    --selection-background: rgba(219, 219, 219, 0.99);
-    --selection-text: #000;
-    --background-color: #000;
-    --text-color: var(--base-color);
-    --placeholder-color: var(--base-color);
-    --link-color: var(--base-color);
-    --code-color-1: #aaaaaa;
-    --code-color-2: #ffffcc;
-    --code-color-3: #F00000;
-    --code-color-4: #F0A0A0;
-    --code-color-5: #b38aff;
-    --code-color-6: #5ba711;
-    --code-color-7: #e4e477;
-    --code-color-8: #000080;
-    --code-color-9: #05ca05;
-    --code-color-10: #888888;
-    --code-color-11: #555555;
-    --code-color-12: #800080;
-    --code-color-13: #00d4d4;
-    --code-color-14: #00c1c1;
-    --code-color-15: #ed9d13;
-    --code-color-16: #1e90ff;
-    --code-color-17: #800000;
-    --code-color-18: #bbbbbb;
-  }
+hr {
+  border: none;
+  border-top: 1px dashed #333333; /* Dashed line */
+  background: rgb(14, 14, 14);
+  width: 100%;
+  margin: 10px auto;
+}
+
+/**
+ * Dark theme variables
+ */
+:root {
+  --base-color: #DBDBDB;
+  --border: dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: rgba(219, 219, 219, 0.99);
+  --selection-text: #000;
+  --background-color: #000;
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+  --code-color-1: #aaaaaa;
+  --code-color-2: #ffffcc;
+  --code-color-3: #F00000;
+  --code-color-4: #F0A0A0;
+  --code-color-5: #b38aff;
+  --code-color-6: #5ba711;
+  --code-color-7: #e4e477;
+  --code-color-8: #000080;
+  --code-color-9: #05ca05;
+  --code-color-10: #888888;
+  --code-color-11: #555555;
+  --code-color-12: #800080;
+  --code-color-13: #00d4d4;
+  --code-color-14: #00c1c1;
+  --code-color-15: #ed9d13;
+  --code-color-16: #1e90ff;
+  --code-color-17: #800000;
+  --code-color-18: #bbbbbb;
 }
 
 /*# sourceMappingURL=main.css.map */

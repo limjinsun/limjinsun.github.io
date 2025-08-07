@@ -18,7 +18,9 @@ $container-max-width:  600px !default;
  * Global
  */
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
+h1, h2 { font-size: $base-font-size * 1.4;  margin: 0px;  margin-top: 22px;  font-weight: 400;  color: var(--text-color); }
+h3, h4 { font-size: $base-font-size * 1.2;  margin: 0px;  margin-top: 22px;  font-weight: 400;  color: var(--text-color); }
+h5, h6 { font-size: $base-font-size;        margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
@@ -134,3 +136,11 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+hr {
+  border: none;
+  border-top: 1px dashed #333333; /* Dashed line */
+  background: rgb(14, 14, 14);
+  width: 100%;
+  margin: 10px auto;
+}
